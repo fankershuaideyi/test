@@ -8,7 +8,7 @@ public class Greeter {
 
   public Greeter(String language, String country, String name) {
     locale = new Locale(language, country);
- 
+    System.out.println("515561313641563");
     this.name = name;
   
   }
@@ -24,7 +24,10 @@ public class Greeter {
     String name = args[2];
     Greeter greeter = new Greeter(language, country, name);
     System.out.println(greeter.sayHello());
+<<<<<<< HEAD
     System.out.println("12134586");
+=======
+>>>>>>> iss-2
  
   }
 }
